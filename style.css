@@ -1,0 +1,290 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.containergeral {
+    width: 1280px;
+}
+
+.container {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 15%, rgba(130,150,236,1) 39%, rgba(215,229,232,1) 100%);
+}
+nav {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px 0 15px;
+
+}
+nav a {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.container__caixa {
+ 
+
+}
+.netunologo {
+    width: 100px;
+    position: relative;
+    left: 60px;
+}
+
+.imagemlogo{
+    width: 100%;
+    height: 100%;
+}
+.container__titulo {
+    
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.container__convite {
+    
+    font-size: 20px;
+
+}
+.textoentrada {
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    top: 65%;
+
+}
+
+main {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(197, 93, 218) 15%, rgba(130,150,236,1) 39%, rgba(215,229,232,1) 100%);
+}
+
+
+.containerinformacoes {
+    display: flex;    
+    text-align: center;
+    flex-direction: column;
+    color: #080808;
+
+
+}
+.menutitle {
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 200px 0 20px 0;
+}
+
+.menutitle2 {
+    font-size: 40px;
+    color: rgb(14, 13, 13);
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+
+.informacoesp{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.informacoestitle {
+    font-weight: bold;
+    
+    font-size: 25px;
+}
+.informacoesresposta {
+    font-size: 18px;
+
+}
+
+.containersecundario {
+    color: #020202;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.informacoescasa{
+    margin: 1em 0 1em 0.9em;
+}
+.iconesaturno {
+    width: 50px;
+        max-width: 100px;
+}
+.menutitleicone{
+    font-size: 50px;
+    text-align: center;
+
+}
+.menuicone {
+    margin: 200px 10px 50px;
+
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+       color: #030303;
+    
+}
+.comidinhas {
+    color: #000000;
+    font-size: 30px;    
+    margin-left: 20px;
+    
+}
+
+
+
+.comidascardapio {
+    display: flex;
+    justify-content: space-evenly;    
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    background-color: rgba(255,255,255, 0.5);
+    
+}
+
+.imagemtextocomida {
+    max-width: 280px;
+}
+
+.imagemcomida {
+    width: 280px;
+}
+
+
+.textoimagemmenu {
+    margin: 5px 5px 5px 5px;
+    font-size: 28px;
+    color: #000000;
+}
+
+.textoimagemcomida {
+    max-width: 280px;
+    color: #000000;
+    font-size: 17px;
+}
+
+.porcoestitle {
+    color: #000000;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+
+.containerporcoes {
+    display: flex;
+    justify-content: space-evenly;    
+    margin: 15px 15px 0 15px;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgba(255,255,255, 0.5);
+    padding: 10px 0;
+
+}
+.containerbox {
+    max-width: 340px;
+}
+
+.imagemporcoes {
+    width: 340px;
+    margin: 10px 0;
+}
+
+.textoporcoes {
+    font-size: 29px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 9px;
+
+}
+
+.textosubporcoes {
+    max-width: 300px;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+
+ footer {
+    background: rgb(208,163,238);
+background: linear-gradient(90deg, rgba(208,163,238,1) 0%, rgba(130,150,236,1) 32%, rgba(215,229,232,1) 100%);
+    
+}
+
+.containerfooter {
+    color: #000000;
+    text-align: center;
+        
+}
+.titlefooter{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.pfooter {
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.redessociaiscontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+        
+}
+
+
+@media screen and (max-width: 400px) {
+    .caixa, .container__caixa, .containerinformacoes,
+     .containersecundario, .cardapio {
+        width: auto;
+     }
+
+    .netunologo {
+        left: 0;        
+     
+        
+    }
+    nav {
+        position: static;
+    }
+     nav ul{
+        text-align: center;
+
+
+        
+     }
+     .textoentrada  {
+        position: static;
+        font: 20px;
+        
+     }
+
+     .containerinformacoes {
+        width: auto;
+     }
+
+
+
+}
